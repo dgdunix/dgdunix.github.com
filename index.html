@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>dgdunix@GitHub</title>
+<style>
+.green { color: green; }
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+</head>
+<body>
+<h1 id="header">dgdunix at GitHub</h1>
+<ul>
+  <li><a href="https://github.com/dgdunix/emacs.d">emacs.d</a></li>
+  <li><a href="https://github.com/dgdunix/nu">Nu</a> programming language.</li>
+  <li><a href="https://github.com/dgdunix/arora">arora</a></li>
+</ul>
+<script>
+$(function() {
+  $('#header').hover(function() {
+    $(this).addClass('green');
+  }, function() {
+    $(this).removeClass('green');
+  });
+});
+</script>
+</body>
+</html>
